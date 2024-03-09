@@ -1,0 +1,61 @@
+body{
+    background: linear-gradient(45deg, #79dc51, #f6ef7b);
+    margin: 8;
+    height: 100vh;
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#hero{
+    background-image: url('comunicacion.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;   
+}
+
+#textoBotonContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+#texto {
+    width: 80%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 18px;
+    color: #000;
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 8px;
+    outline: none;
+
+}
+
+#hablar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: url('Micro.png') center/cover;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    transition: backgroud-color 0.3s, transform 0.3s, box-shadow 0.3s;
+
+}
+#hablar:hover{
+    background-color: #ff6347;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+}
+
